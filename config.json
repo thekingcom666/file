@@ -1,0 +1,59 @@
+{
+    "api": {
+        "token": "",
+        "base_url": "http://192.168.1.112:2531/v2/api",
+        "app_id": ""
+    },
+    "settings": {
+        "default_dir": "./plugins/file_plugin/files",
+        "max_file_size": 100,
+        "allowed_extensions": [
+            "pdf",
+            "doc",
+            "docx",
+            "xls",
+            "xlsx",
+            "ppt",
+            "pptx",
+            "txt",
+            "csv",
+            "json",
+            "xml",
+            "html",
+            "md",
+            "jpg",
+            "jpeg",
+            "png",
+            "gif",
+            "bmp",
+            "svg",
+            "mp3",
+            "wav",
+            "ogg",
+            "mp4",
+            "avi",
+            "mov",
+            "zip",
+            "rar",
+            "7z",
+            "tar",
+            "gz"
+        ],
+        "use_cache": true,
+        "cache_dir": "./plugins/file_plugin/cache",
+        "file_server": {
+            "host": "0.0.0.0",
+            "port": 0,
+            "public_host": "192.168.1.112",
+            "external_host": "192.168.1.112"
+        },
+        "file_retention": {
+            "default_days": 30,
+            "clean_interval_days": 1,
+            "cache_expire_days": 3
+        }
+    },
+    "shortcuts": {
+        "测试文件": "./plugins/file_plugin/files/test.txt"
+    }
+}
