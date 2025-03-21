@@ -217,7 +217,8 @@ plugins/
 
 示例
 
-/Users/root1/Library/Containers/com.tencent.qq/Data/tmp/QQ_1742534500748.png
+![QQ_1742543301022](https://github.com/user-attachments/assets/d7e95095-193d-433a-b30f-fbf8405d28c9)
+
 
 ### 命令概览
 
